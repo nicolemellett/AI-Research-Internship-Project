@@ -164,4 +164,4 @@ for ref in references:
             year=parsed['year']
         )
     else:
-        print("Could not pfind reference.")
+        print("Could not find reference.")
