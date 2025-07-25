@@ -149,14 +149,14 @@ for para in doc.paragraphs:
 # Once parsed, call check in scopus function - only uses first authors surname to simplify query
 # If not found, user is told
 for ref in references:
-    print("--")
+    print("-")
     print("Original Reference:", ref)
     formatted = format_reference_style(ref)
     print("Reference Style:", formatted)
 
     parsed = parse_reference(ref)
     if parsed:
-        print("Checking in Scopus...")
+        print("Checking in Scopus")
         check_reference_in_scopus(
             title=parsed['title'],
             author=parsed['authors'].split(",")[0],  
