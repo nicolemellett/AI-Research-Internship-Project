@@ -6,9 +6,9 @@ import re
 import requests
 from docx import Document
 
-# Elsevier Scopus API authenticater key
+# Elsevier Scopus API authenticater key (edited out)
 
-elsevier_API = "cd3878b02038af882ddb46a188baa280"
+elsevier_API = ""
 
 # Pattern dictionary used to hold regex patterns for each reference style format - such as Harvard and APA
 # Each regex has named groups using ?P to gather each reference part
