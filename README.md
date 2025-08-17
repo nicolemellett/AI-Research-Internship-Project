@@ -5,8 +5,10 @@ The algorithm has been completed to a basic level, with areas of improvement in 
 
 **Libraries Used**
 
-**re module** – regular expressions module used for reference stycle parser
+**re module** – regular expressions module used for reference stycle parser 
+
 **requests module** – interacts with Elsevier API to fetch from API URL
+
 **docx module and Document class** – opens and reads an imported Word doc
 
 **Use of APIs**
