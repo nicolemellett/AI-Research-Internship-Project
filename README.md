@@ -26,7 +26,8 @@ The system begins with a reference parser, using regex patterns and dictionaries
 
 **Current Final Output:**
 
-<img width="355" height="138" alt="image" src="https://github.com/user-attachments/assets/6a90bc9a-d1ab-4d38-a248-dbfdb2406840" />
+<img width="476" height="185" alt="image" src="https://github.com/user-attachments/assets/696ed215-e0a9-4428-ad42-be8488e19730" />
+
 
 
 
