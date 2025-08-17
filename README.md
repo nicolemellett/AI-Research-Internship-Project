@@ -9,7 +9,7 @@ The API used in this application is a Scopus Search API, accessed via API key th
 
 The original aim of this application was a Google / Google Scholar-based API. However, there is no official one and this is not widely available through third partys.
 
-Scopus as a searching website is limited as its primary focus is scientific journals, not accounting for books and web sources, amongst many. In my initial test case, a positive result is shown despite my test case being a book reference. Upon manual searching, the reference does not exist in Scopus.
+Scopus as a searching website is limited as its primary focus is scientific journals, not accounting for books and web sources, amongst many. In my initial test case, a positive result is shown despite my main test case being a book reference. Upon manual searching, the reference **does not** exist in Scopus.
 
 
 
