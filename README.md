@@ -24,3 +24,9 @@ Scopus as a searching website is limited as its primary focus is scientific jour
 The system begins with a reference parser, using regex patterns and dictionaries to compare a parsed reference to the Harvard and APA styles only, currently. The regex patterns can be improved upon to provide more accuracy but current is correct to a certain level. The regex patterns are broke down in the comments of the code file.
 
 
+**Current Final Output:**
+
+<img width="355" height="138" alt="image" src="https://github.com/user-attachments/assets/6a90bc9a-d1ab-4d38-a248-dbfdb2406840" />
+
+
+
