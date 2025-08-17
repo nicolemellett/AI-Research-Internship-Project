@@ -1,6 +1,6 @@
 # Imports re module - regular expressions - used to match references to a style based on regex
 # pattern. Imports requests module - used to interact with Elsevier API by fetching from URL
-# Imports document class from python-docx library - used to open and ead  from an imported Word document
+# Imports document class from python-docx library - used to open and read from an imported Word document
 
 import re 
 import requests
