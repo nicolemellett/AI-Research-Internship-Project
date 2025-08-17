@@ -19,24 +19,6 @@ Scopus as a searching website is limited as its primary focus is scientific jour
 
 **Reference Style Parser**
 
-The system begins with a reference parser, using regex patterns and dictionaries to compare a parsed reference to the Harvard and APA styles only, currently. The regex patterns can be improved upon to provide more accuracy but current is correct to a certain level.
-
-Regex Pattern Breakdowns:
-
-**Author:** [A-Za-z\-']+, = a last name with letters, hyphens, or apostrophes followed by a comma
-            [A-Za-z]\.? = one initial letter, optionally followed by a full stop
-            ? = optional space
-            (?:[A-Za-z]\.?)* = optionally more initials 
-            \s+ = one or more spaces
-
-**Year:**   \( and \) = brackets around the year
-        (?P<year>\d{4}) = named year with exactly 4 digits
-        \.? = optional full stop after the year
-        \s+ = one or more spaces
-
-**Title and Source:**  \" = starting quotation
-                      (?P<title>.+?) = one or more character
-                      \"\. = closing quote followed by a full stop
-                      \s+ = one or more spaces
+The system begins with a reference parser, using regex patterns and dictionaries to compare a parsed reference to the Harvard and APA styles only, currently. The regex patterns can be improved upon to provide more accuracy but current is correct to a certain level. The regex patterns are broke down in the comments of the code file.
 
 
