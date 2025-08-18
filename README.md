@@ -3,6 +3,22 @@
 This application is intended to take references from an academic essay or a public research paper and check using scholarly sites if these references exist and are accurate or if they are ‘hallucinated’ – where references are AI-generated and inaccurate due to generative AI’s or LLMs’ lack of ability to process requests like this. It also handles formatting and returns the reference style a reference is written in.
 The algorithm has been completed to a basic level, with areas of improvement in regards to the data it can handle and process, including improving accuracy, and additional verification of references.
 
+**Steps on How to Use**
+
+Coding file Steps on How to Use
+
+Coding file **needs** to be in **same directory** as Word file containing references
+
+1.	Run file and in the terminal, a prompt asking to enter the file name including the .docx extension will show up
+2.	File is open and read and any info from ‘reference’ heading down will be taken line by line to extract references
+3.	References then checked for reference style using regex. These are outputted alongside the reference parameters once ran through Scopus
+4.	Scopus queries and delivers results – stating if it has been found or not
+5.	If found, all search query fields are outputted
+
+**Current Final Output**
+
+<img width="498" height="194" alt="image" src="https://github.com/user-attachments/assets/3c31e257-93cd-4a73-be11-d54a57adaccc" />
+
 **Libraries Used**
 
 **re module** – regular expressions module used for reference stycle parser 
@@ -22,12 +38,3 @@ Scopus as a searching website is limited as its primary focus is scientific jour
 **Reference Style Parser**
 
 The system begins with a reference parser, using regex patterns and dictionaries to compare a parsed reference to the Harvard and APA styles only, currently. The regex patterns can be improved upon to provide more accuracy but current is correct to a certain level. The regex patterns are broke down in the comments of the code file.
-
-
-**Current Final Output:**
-
-<img width="476" height="185" alt="image" src="https://github.com/user-attachments/assets/696ed215-e0a9-4428-ad42-be8488e19730" />
-
-
-
-
